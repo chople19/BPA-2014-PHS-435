@@ -1,9 +1,9 @@
 ## A World of Adventure, A Lifetime of Memories
 #### Design From Viewpoint of a Travel Agency
 Created By:
-Luke Foldenauer
-Ulises Hernandez 
-Calvin Hopple
+Luke Foldenauer,  
+Ulises Hernandez,  
+Calvin Hopple,  
 Kameron Ray
 
 ##### Goals
