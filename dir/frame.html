@@ -30,6 +30,43 @@
             </div><!-- End logo -->
         </header>
         <main>
+        
+        
+        <style>
+        #video_background {
+        position: absolute;
+        bottom: 0px;
+        right: 0px;
+        min-width: 100%;
+        min-height: 100%;
+        width: auto;
+        height: auto;
+        z-index: -2;
+        overflow: hidden;
+        }
+        #video_pattern {
+        background-image: url(media/over.png);
+        position: fixed;
+        opacity: 0.8;
+        left: 0px;
+        top: 0px;
+        width: 100%;
+        height: 100%;
+        z-index: -1;
+        }
+        </style>
+        <div id="video_pattern">
+        <video id="video_background" preload="auto" autoplay="true" loop="loop" muted="muted" volume="0"> 
+        <source src="media/waves.webm" type="video/webm"> 
+        <source src="media/waves.mp4" type="video/mp4"> 
+        <source src="media/waves.ogv" type="video/ogg ogv">
+        Video not supported </video>
+        </div>
+        
+        
+        
+        
+        
             <!-- For Mission Statement -->
             <section>
                 <article>
