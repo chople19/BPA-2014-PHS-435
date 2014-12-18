@@ -1,102 +1,90 @@
 * {
-    margin: 0;
-    padding: 0;
+	margin: 0;
+	padding: 0;
 }
-
 body {
-    color: #000;
-    font-size: 14px;
-    font-family: serif;
-    text-align: center;
+	color: #000;
+	font-size: 14px;
+	font-family: serif;
+	text-align: center;
 }
-
 header {
 	width: 100%;
 	height: 99px;
 	background-color: #6c9;
-    border-bottom: 2px solid #396;
+	border-bottom: 2px solid #396;
 }
-
-    header nav {
-        float: left;
-    }
-
-    header #logo {
-        float: right;   
-    }
-
+	header nav {
+		float: left;
+	}
+	header #logo {
+		float: right;   
+	}
 hr {
-    border: 1px solid #396;
-    margin-top: 1px;
+	border: 1px solid #396;
+	margin-top: 1px;
 }
-
-main {
-    clear: both;
+main, footer {
+	clear: both;
 }
-
-footer {
-    clear: both;
-}
-
 /*=================--Nav Styles--======================*/
 #parallelogram {
-    width: 50px;
-    height: 99px;
-    -webkit-transform: skew(-20deg);
-    transform: skew(-20deg);
-    transition: background-color 0.5s ease;
-    background: #6c9;
-    display: inline-block;
-    border: 1px solid #798788;
-    border-top: none;
-    border-bottom: none;
+	width: 50px;
+	height: 99px;
+	-webkit-transform: skew(-20deg);
+	transform: skew(-20deg);
+	transition: background-color 0.5s ease;
+	background: #6c9;
+	display: inline-block;
+	border: 1px solid #798788;
+	border-top: none;
+	border-bottom: none;
 }
-   #parallelogram:hover {
-    background: #27ae60;
-}
-   #parallelogram h2 {
-    -webkit-transform: rotate(-90deg);
-    transform: rotate(-90deg);
-    position: absolute;
-    bottom: 35px;
-}
-
-    #parallelogram h2 a {
-        text-decoration: none;
-        color: #000;
-    }
+	#parallelogram h2 {
+		-webkit-transform: rotate(-90deg);
+		transform: rotate(-90deg);
+		position: absolute;
+		bottom: 35px;
+	}
+		#parallelogram h2 a {
+			text-decoration: none;
+			color: #000;
+		}
+	#parallelogram:hover {
+		background: #27ae60;
+	}
 .leftalign {
-border-left: none;
-margin-left: -5px;
+	border-left: none;
+	margin-left: -5px;
 }
 /*=================--Video Background Styles--======================*/
 #video_background {
-margin-top: -2px;
-bottom: 0px;
-right: 0px;
-min-width: 100%;
-min-height: 100%;
-width: auto;
-height: auto;
-z-index: -2;
-overflow: hidden;
+	margin-top: -2px;
+	bottom: 0px;
+	right: 0px;
+	min-width: 100%;
+	min-height: 100%;
+	width: inherit;
+	height: auto;
+	z-index: -2;
+	overflow: hidden;
 }
 #video_pattern {
-background-image: url(media/over.png);
-opacity: 0.8;
-left: 0px;
-top: 0px;
-width: 100%;
-height: 100%;
-z-index: -1;
+	background-image: url(media/over.png);
+	opacity: 0.8;
+	left: 0px;
+	top: 0px;
+	width: 100%;
+	height: 100%;
+	z-index: -1;
 }
-/*================--Main Styling--=================*/
+/*================--Index Page Styling--=================*/
 .plans {
-    margin: 30px;
-    display: inline-block;
-    height: 180px; /* Temporary */
-    width: 180px; /* Place Holder */
-    background: rgba(0,0,0,0.6);
+	margin: 30px;
+	display: inline-block;
+	height: 180px; /* Temporary */
+	width: 180px; /* Place Holder */
+	background: rgba(0,0,0,0.6);
 }
 #belowVid {
 	width: 100%;
