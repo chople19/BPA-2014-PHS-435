@@ -33,6 +33,11 @@ hr {
 main {
     clear: both;
 }
+
+footer {
+    clear: both;
+}
+
 /*=================--Nav Styles--======================*/
 #parallelogram {
     width: 50px;
@@ -55,7 +60,21 @@ main {
     position: absolute;
     bottom: 35px;
 }
+
+    #parallelogram h2 a {
+        text-decoration: none;
+        color: #000;
+    }
 .leftalign {
 border-left: none;
 margin-left: -5px;
+}
+
+/*================--Main Styling--=================*/
+.plans {
+    margin: 30px;
+    display: inline-block;
+    height: 180px; /* Temporary */
+    width: 180px; /* Place Holder */
+    background: rgba(0,0,0,0.6);
 }
