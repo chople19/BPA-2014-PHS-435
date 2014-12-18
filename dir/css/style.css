@@ -18,12 +18,10 @@ header {
 		float: left;
 	}
 	header #logo {
-		float: right;   
+		float: right;
+        margin-right: 100px; /*Readjust for image */
 	}
-hr {
-	border: 1px solid #396;
-	margin-top: 1px;
-}
+
 main, footer {
 	clear: both;
 }
@@ -88,7 +86,7 @@ main, footer {
 }
 #belowVid {
 	width: 100%;
-	height: 300px;
+	height: auto;
 	background-color: #ecf0f1;
 	z-index: -2;
 }
