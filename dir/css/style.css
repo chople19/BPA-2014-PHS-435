@@ -13,15 +13,15 @@ body {
 header {
 	width: 100%;
 	height: 99px;
-	background-color: #6c9;
-	border-bottom: 2px solid #396;
+	background-color: rgb(156,173,173);
+    border-bottom: 2px solid rgb(70,70,70);
 }
 	header nav {
 		float: left;
 	}
 	header #logo {
 		float: right;
-        margin-right: 100px; /*Readjust for image */
+        margin: 0 100px; /*Readjust for image */
 	}
 
 main, footer {
@@ -31,10 +31,10 @@ main, footer {
 #parallelogram {
 	width: 50px;
 	height: 99px;
-	-webkit-transform: skew(-20deg);
-	transform: skew(-20deg);
+	-webkit-transform: skew(-25deg);
+	transform: skew(-25deg);
 	transition: background-color 0.5s ease;
-	background: #6c9;
+	background: rgb(156,173,173);
 	display: inline-block;
 	border: 1px solid #798788;
 	border-top: none;
@@ -48,7 +48,7 @@ main, footer {
 	}
 		#parallelogram h2 a {
 			text-decoration: none;
-			color: #000;
+			color: #fff;
 		}
 	#parallelogram:hover {
 		background: #27ae60;
@@ -67,6 +67,7 @@ main, footer {
 	height: auto;
 	z-index: -3;
 	overflow: hidden;
+    border-bottom: 1px solid rgb(51,55,56);
 }
 #video_overlay {
 	background-image: url(media/over.png);
@@ -98,11 +99,12 @@ main, footer {
 .plans {
 	margin: 30px;
 	display: inline-block;
-	height: 180px; /* Temporary */
-	width: 180px; /* Place Holder */
+	height: 200px; /* Temporary */
+	width: 200px; /* Place Holder */
 	background: rgba(0,0,0,0.6);
 }
 #belowVid {
+    margin-top: -5px;
 	width: 100%;
 	height: auto;
 	z-index: -2;
